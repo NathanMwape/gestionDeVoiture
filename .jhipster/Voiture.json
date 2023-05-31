@@ -1,0 +1,43 @@
+{
+  "applications": ["Reservaion"],
+  "changelogDate": "20230531080309",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "voiture",
+  "fields": [
+    {
+      "fieldName": "marque",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modele",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "disponibilite",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "tarifJournalier",
+      "fieldType": "Double"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Voiture",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "gestionFlotte",
+      "otherEntityRelationshipName": "voitures",
+      "relationshipName": "gestionFlotte",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

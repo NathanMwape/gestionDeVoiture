@@ -1,0 +1,28 @@
+{
+  "applications": ["Reservaion"],
+  "changelogDate": "20230531080509",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "gestion_flotte",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GestionFlotte",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "gestionFlotte",
+      "relationshipName": "reservations",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "voiture",
+      "otherEntityRelationshipName": "gestionFlotte",
+      "relationshipName": "voitures",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,52 @@
+
+application {
+  config {
+    baseName Reservaion,
+    applicationType monolith,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react,
+    nativeLanguage fr
+    languages [en,fr]
+  }
+  entities *
+}
+
+entity Utilisateur {
+  nom String,
+  isAdmin Boolean,
+  email String,
+  motDePasse String
+}
+
+entity Voiture {
+  marque String,
+  modele String,
+  description String,
+  disponibilite Boolean,
+  tarifJournalier Double
+}
+
+entity Reservation {
+  dateDebut LocalDate,
+  dateFin LocalDate,
+  montant Double,
+  statut String
+}
+
+relationship ManyToOne {
+  Reservation{utilisateur} to Utilisateur,
+  Reservation{voiture} to Voiture
+}
+
+entity GestionFlotte {
+}
+
+relationship OneToMany {
+  GestionFlotte{reservations} to Reservation{gestionFlotte}
+}
+
+relationship OneToMany {
+  GestionFlotte{voitures} to Voiture{gestionFlotte}
+}

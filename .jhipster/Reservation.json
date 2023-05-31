@@ -1,0 +1,49 @@
+{
+  "applications": ["Reservaion"],
+  "changelogDate": "20230531080409",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "reservation",
+  "fields": [
+    {
+      "fieldName": "dateDebut",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateFin",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "montant",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "statut",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Reservation",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "utilisateur",
+      "relationshipName": "utilisateur",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "voiture",
+      "relationshipName": "voiture",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "gestionFlotte",
+      "otherEntityRelationshipName": "reservations",
+      "relationshipName": "gestionFlotte",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

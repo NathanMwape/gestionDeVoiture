@@ -1,0 +1,25 @@
+{
+  "reservaionApp": {
+    "gestionFlotte": {
+      "home": {
+        "title": "GestionFlottes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Gestion Flotte",
+        "createOrEditLabel": "Créer ou éditer un Gestion Flotte",
+        "notFound": "Aucun Gestion Flotte trouvé"
+      },
+      "created": "Un nouveau Gestion Flotte a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Gestion Flotte avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Gestion Flotte avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Gestion Flotte {{ id }} ?"
+      },
+      "detail": {
+        "title": "Gestion Flotte"
+      },
+      "id": "ID",
+      "reservations": "Reservations",
+      "voitures": "Voitures"
+    }
+  }
+}

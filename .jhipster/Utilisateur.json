@@ -1,0 +1,32 @@
+{
+  "applications": ["Reservaion"],
+  "changelogDate": "20230531080209",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "utilisateur",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "isAdmin",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "motDePasse",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Utilisateur",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

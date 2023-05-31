@@ -1,0 +1,29 @@
+{
+  "reservaionApp": {
+    "voiture": {
+      "home": {
+        "title": "Voitures",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Voiture",
+        "createOrEditLabel": "Créer ou éditer un Voiture",
+        "notFound": "Aucun Voiture trouvé"
+      },
+      "created": "Un nouveau Voiture a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Voiture avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Voiture avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Voiture {{ id }} ?"
+      },
+      "detail": {
+        "title": "Voiture"
+      },
+      "id": "ID",
+      "marque": "Marque",
+      "modele": "Modele",
+      "description": "Description",
+      "disponibilite": "Disponibilite",
+      "tarifJournalier": "Tarif Journalier",
+      "gestionFlotte": "Gestion Flotte"
+    }
+  }
+}

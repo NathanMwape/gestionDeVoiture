@@ -1,0 +1,29 @@
+{
+  "reservaionApp": {
+    "voiture": {
+      "home": {
+        "title": "Voitures",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Voiture",
+        "createOrEditLabel": "Create or edit a Voiture",
+        "notFound": "No Voitures found"
+      },
+      "created": "A new Voiture is created with identifier {{ param }}",
+      "updated": "A Voiture is updated with identifier {{ param }}",
+      "deleted": "A Voiture is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Voiture {{ id }}?"
+      },
+      "detail": {
+        "title": "Voiture"
+      },
+      "id": "ID",
+      "marque": "Marque",
+      "modele": "Modele",
+      "description": "Description",
+      "disponibilite": "Disponibilite",
+      "tarifJournalier": "Tarif Journalier",
+      "gestionFlotte": "Gestion Flotte"
+    }
+  }
+}

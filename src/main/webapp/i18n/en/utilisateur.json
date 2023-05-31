@@ -1,0 +1,27 @@
+{
+  "reservaionApp": {
+    "utilisateur": {
+      "home": {
+        "title": "Utilisateurs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Utilisateur",
+        "createOrEditLabel": "Create or edit a Utilisateur",
+        "notFound": "No Utilisateurs found"
+      },
+      "created": "A new Utilisateur is created with identifier {{ param }}",
+      "updated": "A Utilisateur is updated with identifier {{ param }}",
+      "deleted": "A Utilisateur is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Utilisateur {{ id }}?"
+      },
+      "detail": {
+        "title": "Utilisateur"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "isAdmin": "Is Admin",
+      "email": "Email",
+      "motDePasse": "Mot De Passe"
+    }
+  }
+}
